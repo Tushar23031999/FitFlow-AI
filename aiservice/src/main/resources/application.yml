@@ -29,3 +29,8 @@ kafka:
   topic:
     name: activity-events
 
+gemini:
+  api:
+    url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent
+    key: ${GEMINI_KEY}
+
